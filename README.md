@@ -13,6 +13,10 @@
 <header>
  <h1>HTML Tutorial</h1>
 
+<form action="/search" method="get">
+    <input type="text" name="q" placeholder="Search...">
+    <button type="submit">Search</button>
+</form>
 </header>
  <h1>This is a heading</h1>
  <p>This is a paragraph.</p>
