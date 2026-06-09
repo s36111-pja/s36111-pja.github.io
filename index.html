@@ -112,6 +112,16 @@ header h1 {
     border: 1px solid #ccc;
     border-radius: 3px;
 }
+    .featured-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.featured-item {
+    text-align: center;
+}
 </style>
 </head>
 
@@ -137,36 +147,42 @@ header h1 {
         </div>
     </div>
 
-    <div class="box">
+   <div class="box">
     <div class="box-header">Featured</div>
 
     <div class="box-content center">
 
-        <a href="Sparker.html">
-            <img
-                class="featured-image"
-                src="20260609_093203.jpg"
-                alt="Sparker"
-            >
-        </a>
+        <div class="featured-row">
 
-        <p>
-            <a href="Sparker.html" class="article-link">Sparker</a>
-        </p>
+            <div class="featured-item">
+                <a href="Sparker.html">
+                    <img
+                        class="featured-image"
+                        src="20260609_093203.jpg"
+                        alt="Sparker"
+                    >
+                </a>
 
-        <hr style="margin:20px 0; border:1px solid #ddd;">
+                <p>
+                    <a href="Sparker.html" class="article-link">Sparker</a>
+                </p>
+            </div>
 
-        <a href="Hoarse.html">
-            <img
-                class="featured-image"
-                src="hoarse.jpg"
-                alt="Hoarse"
-            >
-        </a>
+            <div class="featured-item">
+                <a href="Hoarse.html">
+                    <img
+                        class="featured-image"
+                        src="hoarse.jpg"
+                        alt="Hoarse"
+                    >
+                </a>
 
-        <p>
-            <a href="Hoarse.html" class="article-link">Hoarse</a>
-        </p>
+                <p>
+                    <a href="Hoarse.html" class="article-link">Hoarse</a>
+                </p>
+            </div>
+
+        </div>
 
     </div>
 </div>
