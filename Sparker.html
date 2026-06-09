@@ -18,10 +18,27 @@
     }
 
     header {
-        background: #ffffff;
-        border-bottom: 1px solid #ccc;
-        padding: 10px 20px;
-    }
+    background: #ffffff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.home-btn {
+    padding: 8px 14px;
+    border: 1px solid #999;
+    background: #f0f0f0;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.home-btn:hover {
+    background: #e0e0e0;
+}
 
     h1 {
         margin: 0;
@@ -61,14 +78,23 @@
         font-size: 13px;
         color: #555;
     }
+
+    
+
+    
 </style>
 </head>
 
 <body>
-
 <header>
-    <h1>Sparker</h1>
-    <div class="small">Creature Logs</div>
+    <button onclick="window.location.href='index.html'" class="home-btn">
+        Home
+    </button>
+
+    <div>
+        <h1>Creature Logs</h1>
+        <div class="small">The Ultimate Databank</div>
+    </div>
 </header>
 
 <div class="container">
