@@ -114,3 +114,19 @@ header h1 {
 .featured-item {
     text-align: center;
 }
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0078d7;
+    color: white;
+    text-decoration: none;
+    border: 3px solid #000; /* Frame */
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #005ea6;
+}
