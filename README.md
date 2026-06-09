@@ -26,7 +26,6 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.2rem;
 }
 
 header p {
@@ -68,16 +67,28 @@ header p {
     text-decoration: underline;
 }
 
+.center {
+    text-align: center;
+}
+
+/* smaller image */
 .featured-image {
-    width: 100%;
-    max-width: 450px;
+    width: 220px;
+    height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
     border: 1px solid #ccc;
 }
 
-.center {
-    text-align: center;
+.links a {
+    display: block;
+    margin: 5px 0;
+    color: #0645ad;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
 }
 
 .page-footer {
@@ -97,8 +108,8 @@ header p {
 <body>
 
 <header>
-    <h1>Creature Logs</h1>
-    <p>Please enjoy your stay!</p>
+    <h1>MyWiki</h1>
+    <p>The free encyclopedia</p>
 </header>
 
 <div class="container">
@@ -107,13 +118,13 @@ header p {
         <div class="box-header">Welcome to Creature Logs</div>
         <div class="box-content">
             <p>
-                Creature Logs, a wiki where all the information about different fauna is found.
+                Creature Logs, a simple encyclopedia for lifeforms made by me.
             </p>
         </div>
     </div>
 
     <div class="box">
-        <div class="box-header">Featured Article</div>
+        <div class="box-header">Featured</div>
 
         <div class="box-content center">
 
@@ -126,11 +137,21 @@ header p {
             </a>
 
             <p>
-                <a href="Sparker.html" class="article-link">
-                    Apple
-                </a>
+                <a href="Sparker.html" class="article-link">Sparker</a>
             </p>
 
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-header">More Articles</div>
+
+        <div class="box-content links">
+            <a href="#">Banana</a>
+            <a href="#">Orange</a>
+            <a href="#">Strawberry</a>
+            <a href="#">Grape</a>
+            <a href="#">History of Fruit</a>
         </div>
     </div>
 
@@ -139,21 +160,9 @@ header p {
 
         <div class="box-content">
             <ul>
-                <li>There are more than 7,500 known varieties of apples.</li>
-                <li>Apple trees belong to the rose family.</li>
-                <li>The science of fruit cultivation is called pomology.</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="box">
-        <div class="box-header">Featured Facts</div>
-
-        <div class="box-content">
-            <ul>
-                <li>Wikipedia launched in 2001.</li>
-                <li>The oldest known trees can live for thousands of years.</li>
-                <li>Honey never spoils when stored properly.</li>
+                <li>Apple trees can live over 100 years.</li>
+                <li>There are over 7,500 apple varieties.</li>
+                <li>Apples belong to the rose family.</li>
             </ul>
         </div>
     </div>
