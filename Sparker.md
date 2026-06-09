@@ -71,6 +71,7 @@
     <h1>Apple</h1>
     <h1>Sparker</h1>
     <div class="small">From Wikipedia, the free encyclopedia</div>
+    <div class="small">Creature Logs</div>
 </header>
 
 <div class="container">
