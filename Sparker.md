@@ -103,7 +103,6 @@
     </div>
 
     <aside class="infobox">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Apple">
         <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Sparker">
         <h3>Sparker</h3>
         <p><strong>Type:</strong> <em> Mammal</em></p>
