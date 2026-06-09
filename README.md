@@ -23,7 +23,7 @@
 
 <footer>
  <p>Author: PZ</p>
- <p><a
+ <p><a>
 href="mailto:pz@pjwstk.edu.pl">pz@pjwstk.edu.pl</
 a></p>
 
