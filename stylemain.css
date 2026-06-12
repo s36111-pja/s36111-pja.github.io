@@ -10,7 +10,7 @@ body {
         radial-gradient(circle at 70% 80%, rgba(0,0,0,0.03) 0%, transparent 25%);
     background-size: 300px 300px;
 
-     opacity: 0;
+    opacity: 0;
     animation: fadeIn 0.8s ease-in-out 0.5s forwards;
 }
 
