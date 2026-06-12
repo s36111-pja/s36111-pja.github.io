@@ -10,14 +10,17 @@ body {
         radial-gradient(circle at 70% 80%, rgba(0,0,0,0.03) 0%, transparent 25%);
     background-size: 300px 300px;
 
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+     animation: fadeIn 0.5s ease-in-out;
 }
 
-body.loaded {
-    opacity: 1;
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
-
 header {
     background: #ffffff;
     border-bottom: 1px solid #ccc;
