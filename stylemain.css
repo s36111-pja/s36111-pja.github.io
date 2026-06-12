@@ -10,7 +10,7 @@ body {
         radial-gradient(circle at 70% 80%, rgba(0,0,0,0.03) 0%, transparent 25%);
     background-size: 300px 300px;
 
-     animation: fadeIn 0.5s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 @keyframes fadeIn {
